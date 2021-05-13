@@ -1,0 +1,523 @@
+table,
+th,
+td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.denunciasRecentes {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.ulListaLateral {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ulListaLateral li {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solic #CCC;
+}
+
+.ulListaLateral li:hover {
+    background-color: #eee;
+}
+
+.ulListaLateral a {
+    text-decoration: none;
+}
+
+.ulListaLateral img {
+    max-width: 50px;
+    width: 100%;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.ulListaLateral .noborder {
+    border: 0;
+}
+
+.btnAcessar {
+    background-color: #dcecff;
+    padding: 5px;
+    color: #111;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+
+.btnacao {
+    text-decoration: none;
+}
+
+.btnacao img {
+    padding: 5px;
+    max-width: 25px;
+    vertical-align: middle;
+}
+
+.blue {
+    padding: 7px;
+    background-color: #e4f0f7;
+    border: 1px solid #0288D1;
+}
+
+.blue:hover {
+    color: #FFF;
+    background-color: #0288D1;
+    border: 1px solid #0288D1;
+}
+
+.red {
+    padding: 7px;
+    background-color: #f7e4e4;
+    border: 1px solid #a42727;
+}
+
+.red:hover {
+    color: #FFF;
+    background-color: #d59898;
+    border: 1px solid #a42727;
+}
+
+
+/*Painel*/
+
+.menuPainel div {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.menuPainel div a {
+    text-decoration: none;
+    color: #0288D1;
+}
+
+.menuPainel div a:hover {
+    text-decoration: underline;
+}
+
+.textAlign {
+    text-align: right;
+}
+
+.comentarioDenunciante {
+    background-color: #5b6776;
+    color: #FFF;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+}
+
+
+/*formcontroles*/
+
+.frmControles input[type=text],
+.frmControles input[type=password],
+.frmControles select,
+.frmControles textarea,
+#txtComentario {
+    width: 100%;
+    padding: 5px;
+    outline-color: blue;
+}
+
+.frmControles textarea {
+    min-height: 75px;
+}
+
+.linha {
+    margin-top: 10px;
+}
+
+.coluna {
+    margin-top: 10px;
+}
+
+.btn-padrao {
+    background: #e43c5c;
+    border: 0;
+    padding: 10px 28px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.btn-cancelar {
+    background: #fdeff2;
+    border: 0;
+    padding: 10px 28px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.btn-buscaLocalizacao {
+    background: #e43c5c;
+    border: 0;
+    padding: 10px 28px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.spSucesso {
+    color: #0f8746;
+    background-color: #ccdec8;
+    border: 1px solid #0f8746;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.spErro {
+    color: #7e5656;
+    background-color: #f2dddd;
+    border: 1px solid #7e5656;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.table td,
+.table th {
+    padding: 5px;
+}
+
+.table tbody tr:nth-child(old) {
+    background-color: #FFF;
+}
+
+.table tbody tr:hover {
+    background: #e43c5c;
+    color: #FFF;
+}
+
+.button {
+    background-color: rgb(43, 41, 41);
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+#lineSite {
+    background: #e43c5c;
+    color: white;
+}
+
+#colorWhite {
+    color: white;
+}
+
+
+/*dvTopo*/
+
+#dvTopo {
+    text-align: center;
+    background-color: #000000;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+#dvTopo img {
+    width: 100%;
+    max-width: 226px;
+}
+
+
+/*dvMenu*/
+
+#dvMenuTopo {
+    text-align: center;
+    background-color: #000000;
+    border-bottom: 5px solid #eb3a34;
+}
+
+#dvMenuTopo ul {
+    list-style: none;
+    padding: 5px;
+}
+
+#dvMenuTopo ul li {
+    display: inline;
+    padding: 5px;
+}
+
+#dvMenuTopo ul li:hover {
+    background-color: #eb3a34;
+}
+
+#dvMenuTopo ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.125em;
+    padding: 5px;
+}
+
+#dvConteudo {
+    min-height: 100vh;
+}
+
+
+/*dvEsquerda*/
+
+#dvEsquerda {
+    border: 1px solid #BDBDBD;
+}
+
+#txtBusca {
+    width: 87%;
+    padding: 7px;
+    outline: none;
+    border: 1px solid #000000;
+}
+
+#txtBusca:active {
+    box-shadow: 0 0 5px #000000;
+}
+
+#btnBusca {
+    background: #e43c5c;
+    border: 0;
+    padding: 10px 28px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+@media (max-width: 480px) {
+    #txtBusca {
+        width: 70%;
+    }
+}
+
+#boxBusca {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #BDBDBD;
+}
+
+
+/*dvDireita*/
+
+#dvDireita {}
+
+.dvComent {
+    background-color: #e3e3e3;
+    border-bottom: 3px solid #5b6776;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dvBoxDireita {
+    border: 1px solid #BDBDBD;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#iconesSociais a img {
+    width: 100%;
+    max-width: 48px;
+    padding: 0.3px;
+}
+
+
+/*dvRodapé*/
+
+#dvRodape {
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    border-top: 5px solid #eb3a34;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/*Localizacao*/
+
+.panel {
+    width: 100%;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.imgGridDenuncia {
+    text-align: center;
+}
+
+.imgGridDenuncia img {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.conteudoGridDenuncia table {
+    max-width: 465px;
+}
+
+.conteudoGridDenuncia a {
+    color: #111;
+    text-decoration: none;
+}
+
+.paginacao {
+    width: 100%;
+    text-align: center;
+}
+
+.paginacao ul {
+    list-style: none;
+}
+
+.paginacao ul li {
+    display: inline;
+}
+
+.paginacao ul li a {
+    text-decoration: none;
+    background-color: #e43c5c;
+    padding: 5px;
+    color: #B3E5FC;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.paginacao ul li a:hover,
+.paginacao ul li a:active {
+    box-shadow: 0 0 5px #eb3a34;
+    text-decoration: none;
+}
+
+
+/*Denuncia*/
+
+#sliderImagemDenuncia img {
+    max-width: 700px;
+    width: 100%;
+}
+
+#txtComentario {
+    outline: none;
+}
+
+#dvImagensDenunciaAutor ul li {
+    display: inline;
+}
+
+#dvImagensDenunciaAutor img {
+    max-width: 200px;
+    width: 100%;
+    border: 3px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#dvImagensDenunciaAutor img:hover {
+    border: 3px solid #eb3a34;
+}
+
+
+/*dvModal*/
+
+#dvModal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    text-align: center;
+}
+
+#dvModal img {
+    max-width: 800px;
+    width: auto;
+    max-height: 500px;
+    margin-top: 20px;
+    border: 5px solid #FFF;
+}
+
+#dvModal button {
+    background-color: #d65753;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/*PAINEL*/
+
+#dvImagensDenunciaPainel img {
+    max-width: 160px;
+    width: 100%;
+    border: 2px solid #ccc;
+}
+
+#dvImagensDenunciaPainel img:hover {
+    border: 3px solid #eb3a34;
+}
+
+
+/* IMGS ULTIMAS DENUNCIAS */
+
+#imgUltimasDenuncias {
+    padding: 5px;
+    max-width: 50px;
+}
