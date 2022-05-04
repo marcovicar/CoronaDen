@@ -1,3 +1,5 @@
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=YELLOW&style=for-the-badge)
+
 # CoronaDen
  Denuncias anonimas sobre aglomerações (PROJETO DESENVOLVIDO NO TCC)
  
