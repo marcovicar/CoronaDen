@@ -1,4 +1,5 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
+![GitHub Org's stars](https://img.shields.io/github/stars/marcovicar?style=social)
 
 # CoronaDen
  Denuncias anonimas sobre aglomerações (PROJETO DESENVOLVIDO NO TCC)
